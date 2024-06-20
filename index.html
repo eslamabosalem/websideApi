@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container ">
+
+      <a class="navbar-brand" href="#">
+        <div class="d-flex justify-content-center align-items-center text-center gap-2 text-light ms-5">
+          <img src="./imges/logo.png" alt="" class="">
+          <div class="">
+            <h1 class="fs-6">Weather</h1>
+            <h2 class="small-fs text-secondary">tagline goes here</h2>
+          </div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link active text-light mx-4 " aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-light mx-4" aria-current="page" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light mx-4" aria-current="page" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light mx-4" aria-current="page" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light mx-4" aria-current="page" href="#">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <div class="header">
+    <div class="py-5">
+
+      <div class="search mb-4">
+        <div class="container">
+          <div class="position-relative">
+            <input id="search-location" type="text" placeholder="Find your location... "
+              class=" text-light input-clear w-100 p-3 rounded-bottom-pill rounded-top border-1  rounded-top-pill p-2 ">
+            <button
+              class="btn btn-info rounded-bottom-pill  rounded-top-pill py-2  px-4  position-absolute  btn-absolute  end-0 text-light   ">find</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- frist day -->
+    <div class="container  ">
+      <div class="row ">
+        <div class="col-lg-4  ">
+          <div class="d-flex justify-content-between align-items-center dinner p-2 ">
+            <div id="todayweek" class="text-secondary ">Tuesday</div>
+            <div id="month" class="text-secondary">18June</div>
+          </div>
+          <div class="clear-continer pt-2 pt-5 ">
+            <div id="citylocation" class="location text-secondary px-2">alex</div>
+
+            <div class="d-flex justify-content-center align-items-center text-light">
+              <span class=" temp display-1 fw-bold d-block " id="temptoday">24 </span>
+              <img id="imgul" class="icon" src="./imges/116.png" alt="">
+            </div>
+            <div class="">
+              <span id="c_lea" class=" mt-2 text-primary px-2 mb-4  ">clear</span>
+            </div>
+            <div class="d-flex align-items-center px-2 pb-5 mx-4  justify-content-around">
+              <div class="pt-3 ">
+                <img src="./imges/icon-umberella.png" alt="">
+                <span id="humidit" class="text-secondary">20%</span>
+              </div>
+              <div class="pt-3">
+                <img src="./imges/icon-wind.png" alt="">
+                <span id="wind_kp" class="text-secondary">18</span>
+              </div>
+              <div class="pt-3">
+                <img src="./imges/icon-compass.png" alt="">
+                <span id="wind_dir" class="text-secondary">east</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- last s -->
+        <div class="col-lg-4 dinner">
+          <div class="d-flex justify-content-center align-items-center dinner p-2 ">
+            <div id="tomm" class="text-secondary text-center ">Tuesday</div>
+
+          </div>
+          <div class=" text text-center pb-5 pt-4  pt-5 py-5 ">
+
+            <img class="icon" src="./imges/176.png" alt="" id="imgtoday">
+            <span id="tmax-temp" class=" fs-4 fw-bold d-block mb-2">78</span>
+            <span id="mintemp_c" class="d-block mb-2">89</span>
+            <div class="">
+              <span id="c_leae" class=" mt-2 text-primary px-2 mb-4  ">clear</span>
+            </div>
+          </div>
+
+        </div>
+<!--  -->
+        <div class="col-lg-4 ">
+          <div class="d-flex justify-content-center align-items-center dinner p-2  ">
+            <div id="tommm" class="text-secondary text-center  ">Tuesday</div>
+          </div>
+        
+          <div class=" text-white text-center clear-continer pb-5 pt-4  pt-5 py-5 ">
+            <img class="icon" src="./imges/116.png" alt="" id="iconofterr">
+            <span id="tmaxtempAfter" class=" fs-4 fw-bold d-block  mb-2">78</span>
+            
+            <span id="mintempAfter" class="d-block mb-2  ">89</span>
+            <div class="pt-3">
+              <span id="c_leaee" class=" mt-2 text-primary px-2 mb-4  ">clear</span>
+            </div>
+            
+            
+        </div>
+        
+        </div>
+        
+
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+   
+    <footer>
+
+  </div>
+  <div class=" dinner py-5">
+    <form>
+      <div class="search mb-4">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="position-relative">
+                <input id="search-location" type="text" placeholder="Enter your email to subscribe... "
+                  class=" clear-continer  text-light w-100 p-3 rounded-bottom-pill rounded-top  rounded-top-pill p-2 ">
+                <button
+                  class="btn btn-info rounded-bottom-pill  rounded-top-pill py-2  px-4 hightbtn  position-absolute  btn-absolute  end-0 text-light shadow  ">Subscribe</button>
+              </div>
+            </div>
+
+    </form>
+    <div class="col-lg-3 icon-fs mt-3 ps-5">
+      <a href=""><i class="fa-brands fa-facebook "></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href="" class="cricle "> <i class="fa-brands fa-google"></i></a>
+      <a href="" class="cricle "> <i class="fa-brands fa-pinterest"></i></a>
+
+
+    </div>
+    <p class="text-light pt-4 ms-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+
+  </div>
+
+
+  </footer>
+
+  <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

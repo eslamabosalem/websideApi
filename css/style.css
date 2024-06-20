@@ -1,0 +1,71 @@
+.small-fs{
+  font-size: 10px;
+ 
+}
+.navbar{
+background-color: #1E202B;
+padding: 35px 0 35px 0;
+}
+.btn-absolute{
+right: 20px;
+
+bottom: 7px;
+margin-right: 20px;
+margin-bottom: 1px;
+
+
+}
+.input-clear{
+  background-color: #1E202B;
+}
+.dinner{
+  background-color: #1E202B;
+color: white;
+}
+.clear-continer{
+  background-color: #161922;
+}
+.clo{
+
+  background-color: 
+  rgb(22, 22, 34);
+}
+
+
+.header {
+  background-image: url(../imges/banner.png);
+
+  background-position: center center center;
+  background-size: cover;
+
+
+
+
+
+}
+
+.icon-fs a{
+width: 50px;
+height: 50px;
+background-color: #161922;
+border-radius: 50px ;
+padding: 20px;
+transition:all 0.5s ;
+
+
+}
+.icon-fs a:hover{
+  background-color: #009AD8;
+}
+.icon-fs a:hover i{
+  color:white ;
+
+}
+i{
+   transition:all 0.5s ;
+
+  color:#009AD8
+}
+.hightbtn{
+margin-bottom: 2px;
+}
